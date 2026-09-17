@@ -33,7 +33,6 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Check Temu prices
-        working-directory: monitor
         run: python scraper.py
 
       - name: Commit price history
