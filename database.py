@@ -4,9 +4,9 @@ import json
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(__file__).resolve().parents[1]
-PRODUCTS_FILE = ROOT / "data" / "products.json"
-PRICES_FILE = ROOT / "data" / "prices.json"
+ROOT = Path(__file__).resolve().parent
+PRODUCTS_FILE = ROOT / "products.json"
+PRICES_FILE = ROOT / "prices.json"
 
 
 def load_json(path: Path, default: Any) -> Any:
