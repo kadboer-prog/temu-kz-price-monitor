@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Temu KZ Price Monitor",
+  "version": "0.1.0",
+  "description": "Save the current Temu Kazakhstan product variant for price monitoring.",
+  "permissions": ["storage", "activeTab", "scripting", "downloads"],
+  "host_permissions": ["https://www.temu.com/*", "https://temu.com/*"],
+  "action": {
+    "default_title": "Temu KZ Price Monitor",
+    "default_popup": "popup.html"
+  }
+}
